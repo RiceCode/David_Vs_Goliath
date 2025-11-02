@@ -44,7 +44,7 @@
 	  "attackSound": "shot",
 	  "uniques": [
 	    "[+25]% Strength <when defending>",
-		"Spreads [10] Culture on combat victory"
+		"Gain [10] [Culture] on combat victory"
 	  ]
 	},
 	{
@@ -84,7 +84,7 @@
 	}, 
 	{
 	  "name": "Wasteland Technical",
-	  "unitType": "Gunpowder",
+	  "unitType": "Mounted",
 	  "replaces": "Mechanized Infantry",
 	  "uniqueTo": "The Hearthbound Clans",
 	  "movement": 4,
@@ -96,7 +96,6 @@
 	  "promotions": ["Scouting I"],
 	  "attackSound": "shot",
 	  "uniques": [
-	    "[+25]% Strength <when defending>",
 		"Spreads [10] Culture on combat victory",
 	    "[+1] Sight"
 	  ]
