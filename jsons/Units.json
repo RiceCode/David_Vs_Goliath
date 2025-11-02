@@ -60,10 +60,7 @@
 	  "obsoleteTech": "Future Tech",
 	  "promotions": ["Shock I", "Drill I", "Blitz"],
 	  "attackSound": "shot",
-	  "uniques": [
-	    "[-10]% Damage taken <when defending>",
-	    "[-10]% Damage taken <when attacking>"
-	  ]
+	  "uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 	  "name": "Paladin Defender",
@@ -107,8 +104,8 @@
 	  "replaces": "Infantry",
 	  "uniqueTo": "The Hearthbound Clans",
 	  "movement": 2,
-	  "strength": 50,
-	  "rangedStrength": 120,
+	  "strength": 35,
+	  "rangedStrength": 50,
 	  "range": 4,
 	  "cost": 250,
 	  "requiredTech": "Plastics",
@@ -119,7 +116,7 @@
 	  "uniques": [
 		"Spreads [10] Culture on combat victory",
 	    "[+1] Sight",
-		"[+25]% Strength <against [Melee] units>"
+		"[+100]% Strength <vs [Melee] units>"
 	  ]
 	}, 
 	{
@@ -139,7 +136,7 @@
 	  "attackSound": "shot",
 	  "uniques": [
 		"Spreads [10] Culture on combat victory",
-		"[+100]% Strength <against [Armored] class units>"
+		"[+100]% Strength <vs [Armored] units>"
 	  ]
 	}, 
 	{
