@@ -96,6 +96,7 @@
 	  "promotions": ["Scouting I"],
 	  "attackSound": "shot",
 	  "uniques": [
+		"Can move after attacking",
 		"Spreads [10] Culture on combat victory",
 	    "[+1] Sight"
 	  ]
@@ -118,7 +119,7 @@
 	  "uniques": [
 		"Spreads [10] Culture on combat victory",
 	    "[+1] Sight",
-		"[+25]% Strength <when fighting [Gunpowder] class units>"
+		"[+25]% Strength <against [Gunpowder] class units>"
 	  ]
 	}, 
 	{
