@@ -1,0 +1,124 @@
+[
+    // --- ERA 1: FOUNDATION ---
+    {
+        "name": "Farming",
+        "cost": 20,
+        "column": 0,
+        "prerequisites": [],
+        "uniques": [
+            "Enables [Farm] improvement",
+            "Unlocks [Granary]"
+        ]
+    },
+    {
+        "name": "Labor",
+        "cost": 20,
+        "column": 0,
+        "prerequisites": [],
+        "uniques": [
+            "Unlocks [Worker]",
+            "Enables [Road] improvement",
+            "Enables [Mine] improvement"
+        ]
+    },
+    {
+        "name": "Trade",
+        "cost": 20,
+        "column": 0,
+        "prerequisites": [],
+        "uniques": [
+            "Unlocks [Market]",
+            "Unlocks [Caravan]"
+        ]
+    },
+
+    // --- ERA 2: INDUSTRIAL ---
+    {
+        "name": "Civil Service",
+        "cost": 50,
+        "column": 1,
+        "prerequisites": ["Farming", "Labor", "Trade"],
+        "uniques": [
+            "Unlocks [Settler]",
+            "Triggers [Era.Industrial] era"
+        ]
+    },
+    {
+        "name": "Manufacturing",
+        "cost": 100,
+        "column": 2,
+        "prerequisites": ["Civil Service"],
+        "uniques": [
+            "Unlocks [Workshop]",
+            "Unlocks [Factory]"
+        ]
+    },
+    {
+        "name": "Basic Warfare",
+        "cost": 100,
+        "column": 2,
+        "prerequisites": ["Civil Service"],
+        "uniques": [
+            "Unlocks [Barracks]",
+            "Unlocks [Musketman]"
+        ]
+    },
+
+    // --- ERA 3: MODERN (THE SPLIT) ---
+    {
+        "name": "Modern Theory",
+        "cost": 250,
+        "column": 3,
+        "prerequisites": ["Manufacturing", "Basic Warfare"],
+        "uniques": [
+            "Triggers [Era.Modern] era",
+            "Unlocks [Research Lab]"
+        ]
+    },
+
+    // --- BRANCH 1: INFANTRY ---
+    {
+        "name": "Infantry Tactics",
+        "cost": 400,
+        "column": 4,
+        "prerequisites": ["Modern Theory"],
+        "uniques": [
+            "Unlocks [Infantry]",
+            "Unlocks [Machine Gun]"
+        ]
+    },
+    
+    // --- BRANCH 2: VEHICLES ---
+    {
+        "name": "Combustion",
+        "cost": 400,
+        "column": 4,
+        "prerequisites": ["Modern Theory"],
+        "uniques": [
+            "Unlocks [Tank]",
+            "Unlocks [Fighter]"
+        ]
+    },
+    
+    // --- BRANCH 3: ADVANCED WEAPONS ---
+    {
+        "name": "Advanced Ballistics",
+        "cost": 400,
+        "column": 4,
+        "prerequisites": ["Modern Theory"],
+        "uniques": [
+            "Unlocks [Artillery]",
+            "Unlocks [Battleship]"
+        ]
+    },
+    {
+        "name": "WMD",
+        "cost": 1000,
+        "column": 5,
+        "prerequisites": ["Advanced Ballistics"],
+        "uniques": [
+            "Unlocks [Nuclear Missile]",
+            "Enables [Spaceship Part] construction"
+        ]
+    }
+]
