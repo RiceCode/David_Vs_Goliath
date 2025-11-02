@@ -123,6 +123,63 @@
 	  ]
 	}, 
 	{
+	  "name": "Resistance Engineer",
+	  "unitType": "Gunpowder",
+	  "replaces": "Anti-Tank Gun",
+	  "uniqueTo": "The Hearthbound Clans",
+	  "movement": 2,
+	  "strength": 50,
+	  "rangedStrength": 50,
+	  "range": 2,
+	  "cost": 300,
+	  "requiredTech": "Plastics",
+	  "maintenance": 2,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Scouting I"],
+	  "attackSound": "shot",
+	  "uniques": [
+		"Spreads [10] Culture on combat victory",
+		"[+100]% Strength <against [Armored] class units>"
+	  ]
+	}, 
+	{
+	  "name": "Bomb Fanatic",
+	  "unitType": "Gunpowder",
+	  "replaces": "Anti-Tank Gun",
+	  "uniqueTo": "The Hearthbound Clans",
+	  "movement": 2,
+	  "strength": 50,
+	  "cost": 300,
+	  "requiredTech": "Plastics",
+	  "maintenance": 2,
+	  "obsoleteTech": "Future Tech",
+	  "attackSound": "bombing",
+	  "uniques": [
+		"Self-destructs when attacking", 
+		"[+100]% Strength <when attacking>"
+	  ]
+	}, 
+
+	{
+	  "name": "Paladin Battle Tank",
+	  "unitType": "Armored",
+	  "replaces": "Modern Armor",
+	  "uniqueTo": "The Sanctified Dominion",
+	  "movement": 4,
+	  "strength": 110,
+	  "cost": 450,
+	  "requiredTech": "Lasers",
+	  "maintenance": 3,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Shock I", "Drill I"],
+	  "attackSound": "tankshot",
+	  "uniques": [
+	    "Spreads [1] Faith on combat victory", 
+		"Can move after attacking", 
+		"No defensive terrain bonus"
+	  ]
+	}, 
+	{
 	  "name": "The Obliterator",
 	  "unitType": "Siege",
 	  "replaces": "Artillery",
