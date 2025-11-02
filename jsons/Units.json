@@ -101,6 +101,27 @@
 	  ]
 	}, 
 	{
+	  "name": "Resistance Sniper",
+	  "unitType": "Gunpowder",
+	  "replaces": "Infantry",
+	  "uniqueTo": "The Hearthbound Clans",
+	  "movement": 2,
+	  "strength": 50,
+	  "rangedStrength": 120,
+	  "range": 4,
+	  "cost": 250,
+	  "requiredTech": "Plastics",
+	  "maintenance": 2,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Scouting I"],
+	  "attackSound": "shot",
+	  "uniques": [
+		"Spreads [10] Culture on combat victory",
+	    "[+1] Sight",
+		"[+25]% Strength <when fighting [Gunpower] units>"
+	  ]
+	}, 
+	{
 	  "name": "The Obliterator",
 	  "unitType": "Siege",
 	  "replaces": "Artillery",
